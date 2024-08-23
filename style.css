@@ -1,0 +1,627 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin sans', sans-serif;
+  box-sizing: border-box;
+}
+
+
+.hero{
+  height:100vh;
+  width: 100%;
+  background: linear-gradient( rgb(34, 23, 23),rgb(10, 10, 41),rgb(15, 1, 1),black);
+}
+#header-nav{
+  padding-bottom: 10px;
+  padding-right: 35px;
+  background: linear-gradient( rgb(34, 23, 23),rgb(10, 10, 41),rgb(15, 1, 1),black);
+  border:0px;
+  
+}
+
+.navbar-toggle .sr-only .icon-bar{
+  border: 1px solid aqua;
+}
+.navbar-brand a p img{
+width: 50px;
+height: 50px;
+border-radius: 70%;
+border: 1px solid orange;
+
+}
+.navbar-brand a{
+  text-decoration: none;
+  font-size: 26px;
+  color: #dacccc;
+
+} 
+.navbar-brand a p span{
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand a p span:hover{
+ color: orange;
+}
+.nav {
+  font-size: 18px;
+  border: 0px;
+  text-align: center;
+    
+}
+.nav .asp{
+ /* color: ;*/
+ font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.4s ease-out;
+ 
+}
+.nav .asp:hover{
+color: orange;
+
+}
+.content{
+  position:absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(0%);
+
+}
+h1{
+  color: orange;
+  margin: 20px 0 20px;
+  font-size: 65px;
+}
+h3{
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4{
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newsletter form {
+   width:380px;
+   position: relative;
+   max-width: 100%;
+}
+.newsletter form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding:14px 130px 14px 15px;
+  border: 2px solid orange;
+  border-radius: 38px;
+}
+
+.newsletter form input:last-child{
+   position: absolute;
+   display: inline-block;
+   outline: none;
+   border: none;
+   padding: 10px 30px;
+   border-radius: 30px;
+   background-color: orange;
+   color: #fff;
+   box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+   top: 6px;
+   right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#191919 ;
+}
+.about img{
+  height: auto;
+  width: 430px;
+}
+.about-text{
+  width: 457px;
+  color: #fff;
+} 
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+   color: orange;
+   font-size: 75px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+.about-text h5{
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize; 
+}
+.about-text h5 span{
+color: orange;
+}
+.about-text p{
+  letter-spacing: 1px;
+  line-height:16px ;
+  margin-bottom: 25px;
+}
+button{
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 30px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 4s;
+}
+
+button:hover{
+   background-color: transparent;
+  border: 2px solid orange;
+  cursor: pointer;
+}
+
+.service{
+  background-color: #101010;
+  width: 100%;
+  padding: 100px 0px;
+
+}
+.title h2{
+  color: #fff;
+  font-size: 75px;
+  margin: 30px auto;
+  width: 1130px;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 430px;
+    padding: 20px 35px;
+    border: 2px solid ;
+    border-radius: 20px;
+    color: #191919;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+.fav i{
+  color: #fff;
+  font-size: 39px;
+  padding-left: 14px;
+  padding-top: 15px;
+}
+.fav i:hover{
+  color: orange;
+}
+.card i{
+   font-size: 40px;
+   display: block;
+   text-align: center;
+   margin: 25px 0px;
+   color: orange;
+
+}
+h5{
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: #fff
+}
+.pra p{
+  color: #858585;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom:25px;
+}
+.card .button{
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 9px 22px;
+  font-weight: bold;
+  transition: .4s;
+}
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid orange;
+}
+.content h1{
+  transition: 0.4s ease-out;
+  cursor:pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+.content h1:hover{
+  color: #858585;
+
+}
+
+.portfolio{
+  background-color:#191919;
+  
+
+}
+
+.portfolio p, h1{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.portfolio p{
+  padding-top:25px;
+  font-size: 2.5rem;
+  color: #858585;
+  letter-spacing: 7px;
+}
+.portfolio h1{
+  font-size: 3em;
+  font-family: 'Times New Roman', Times, serif;
+}
+.port-sect{
+  width: 100%;
+  padding: 100px 0px;
+  background: #191919;
+}
+.Main{
+  width: 1100px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 120px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+}
+.Main .port-text p{
+  font-size: 15px;
+  letter-spacing: 0px;
+  text-align: center;
+  
+}
+.Main .port-text h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.Main .port-text a {
+  padding-left: 180px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.contact-me{
+  width: 100%;
+  height: 290px;
+  background: #101010;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+
+}
+.contact-me p{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 55px;
+}
+.contact-me .button-two{
+   background-color: orange;
+   color: #fff;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .4s;
+}
+.contact-me .button-two:hover{
+  background-color: transparent;
+  border: 2px solid orange;
+  cursor: pointer;
+}
+.about-text .button-two{
+  background-color: orange;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+.about-text .button-two:hover{
+  background-color: transparent;
+  border: 2px solid orange;
+  cursor: pointer;
+}
+footer{
+  
+  width: 100%;
+  height: 400px;
+   background: #191919;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+footer p:nth-child(2){
+  color:#fff;
+  font-size: 17px;
+  text-align: center;
+  line-height: 26px;
+  width: 500px;
+  line-height: 26px;
+
+}
+.social{
+  display:flex;
+ 
+  
+}
+.social a{
+   width: 45px;
+   height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: orange;
+   margin: 22px 10px;
+   border-radius: 50%;
+   text-decoration: none;
+   color: #fff;
+   font-size: 25px;
+   
+  
+}
+.social a:hover{
+  transform:scale(1.3);
+  transition: 5s;
+  background: transparent;
+}
+.end{
+   position: relative;
+   color: orange;
+   top: 65px;
+   font-size: 14px;
+   letter-spacing: 6px;
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .main{
+      display:inline-block;
+      margin-left: 20px;
+    }
+  .about img{
+    
+    width:345px;
+    border-radius: 10%;
+    
+  }
+  h1{
+    font-size: 45px;
+  }
+  .about-text h2{
+    font-size: 60px;
+    color: orange;
+    font-style: normal;
+     
+  }
+  h3 span {
+    font-size: 15px;
+    color: orange;
+  }
+  .about-text{
+    width: 400px;
+    font-size: 1.5rem; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+  
+  /* service section*/
+}
+.title h2{
+  color: #fff;
+  font-size: 55px;
+  margin: 30px auto;
+  width: 400px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.box{
+
+  align-items: center;
+  min-height: auto;  
+  padding-left:30px;
+  display:inline-block;
+  width: 100%;
+}
+.card{
+  width: 400px;
+}
+.portfolio h1{
+  font-size: 2.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.portfolio p{
+  font-size: 1.7em;
+}
+.Main{
+ display: grid;
+}
+.Main img{
+  width: 450px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  margin-top: 70px;
+  
+}
+.Main .port-text a{
+  padding-left:-35px;
+  font-size: 25px;
+}
+.contact-me p {
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+.contact-me p{
+  font-size: 24px;
+}
+
+footer p:nth-child(2){
+  font-size: 21px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.contact-me p {
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif
+}
+}
+
+
+@media (min-width:550px) {
+   .about-text{
+    width: 450px;
+    font-size: 1.5rem;
+    
+    
+   }
+   .about img{
+    
+    padding-left: 5px;
+    
+   }
+   
+   .about-text p{
+    letter-spacing: 1px;
+    line-height:30px ;
+    margin-bottom: 25px;
+  }
+  /* service section */
+
+.title h2{
+  color: #fff;
+  font-size: 65px;
+  margin: 30px auto;
+  width: 450px;
+  text-align: center;
+}
+.box{
+  padding-left:90px;
+  
+}
+.card{
+  width: 90%;
+}
+.Main .port-text a{
+  padding-left: 75px;
+}
+.Main .port-text p{
+  font-size: 22px;
+}
+.Main img{
+  padding-left:8px;
+}
+
+}
+
+/*@media (min-width:600px) {
+  .Main img{
+    padding-left: 100px;
+  }
+}*/
+
+@media (min-width:760px)  {
+  .about-text h2{
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+  .about img{
+    width: 280px;  
+    border-radius: 15px;
+  }
+  .about-text p{
+    letter-spacing:1px;
+    line-height:28px;
+    margin-bottom: 25px;
+    padding-left: 42px;
+  }
+  .box{
+    display: grid;
+    width: 100%;
+    padding-left: 45px;
+  }
+  .card{
+    width: 90%;
+  }
+  .Main{
+    display:grid;
+  }
+  .Main .port-text a{
+   padding-left:-25px ;
+   font-size: 22px;
+  }
+   .Main .port-text p{
+    font-size: 20px;
+  }
+}
+  
+
+@media (min-width:1200px) {
+ .about img{
+   width: 400px;
+}
+.about-text h2{
+  font-size: 65px;
+  font-style: normal;
+}
+.about-text{
+  font-size: 20px;
+}
+.about-text p{
+  letter-spacing: 2px;
+  line-height:28px ;
+  margin-bottom: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.box{
+  display: flex;
+}
+.Main{
+  display:flex;
+}
+.Main .port-text p{
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+
+}
