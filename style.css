@@ -411,6 +411,15 @@ footer p:nth-child(2){
    font-size: 14px;
    letter-spacing: 6px;
 }
+.general{
+  width: 100%;
+
+}
+.Main .images1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -504,6 +513,12 @@ footer p:nth-child(2){
   font-size: 26px;
   font-family: 'Times New Roman', Times, serif
 }
+.about-text1 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  
+}
 }
 
 
@@ -550,7 +565,11 @@ footer p:nth-child(2){
 .Main img{
   padding-left:8px;
 }
-
+.main .image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 }
 
 /*@media (min-width:600px) {
@@ -592,6 +611,7 @@ footer p:nth-child(2){
    .Main .port-text p{
     font-size: 20px;
   }
+
 }
   
 
@@ -624,4 +644,55 @@ footer p:nth-child(2){
 }
 
 
+}
+
+@media  (max-width:517px)  {
+  .hero{
+    width: 480px;
+  }
+  .portfolio{
+    width: 470px;
+  }
+  .portfolio .Main img{
+    align-self: center;
+  }
+  .box .card{
+    width: 85%;
+    
+  }
+  .about{
+    width: 480px;
+  }
+  .service{
+    width: 480px;
+  }
+  .port-sect{
+    width:480px ;
+  }
+  #porfolio{
+    width: auto;
+  }
+  .main .image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  .about-text1 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+  }
+  .contact-me{
+    width: 480px;
+  }
+  #contact-me{
+    width: 480px;
+  }
+  .Main .images1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:-140px ;
+  }
 }
